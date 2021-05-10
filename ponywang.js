@@ -18,4 +18,12 @@ function ShowTime(){
 
 audio = document.getElementById("audio");
 console.log(audio)
-audio.volume=0.1;
+audio.volume=0.1;    
+
+
+function play()
+{
+    audio = document.getElementById("audio");
+    console.log(audio)
+    audio.volume=0.1;    
+}
