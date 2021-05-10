@@ -27,3 +27,21 @@ function play()
     console.log(audio)
     audio.volume=0.1;    
 }
+
+
+function hide()
+{
+    audio = document.getElementById("audio");
+    word = document.getElementById("music");
+    console.log(word.innerText)
+    if(word.innerText == "顯示音樂")
+    {
+        word.innerHTML = "隱藏音樂"
+        audio.removeAttribute("hidden","hidden");
+    }
+    else if(word.innerText == "隱藏音樂")
+    {
+        word.innerHTML = "顯示音樂"
+        audio.setAttribute('hidden','hidden');
+    }
+}

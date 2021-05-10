@@ -76,3 +76,16 @@ a:hover{
     right: 45%;
     top: -15px;
 }
+
+#audio {
+    width: 30%;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left:20px;
+
+}
+
+.hid {
+    hidden: hidden;
+}
