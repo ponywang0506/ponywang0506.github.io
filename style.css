@@ -1,0 +1,29 @@
+body{
+    background-image: "";
+}
+#data {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+
+img{
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+a:hover{
+    color: red
+}
+
+.showbox {
+    position: absolute;
+    right: 10%
+}
+
+#autobiography {
+    text-align: right;
+}
