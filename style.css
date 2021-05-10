@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: url("./background.png");
     background-repeat:no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ body{
     position: absolute;
     right: 10px;
     bottom: 10px;
-}
+} */
 
 #music {
     position: absolute;
@@ -43,7 +43,7 @@ body{
     font-size: 20px;
 }
 
-#music:hover{
+/* #music:hover{
     color:red;
 }
 
@@ -75,4 +75,4 @@ a:hover{
     position: absolute;
     right: 45%;
     top: -15px;
-}
+} */
